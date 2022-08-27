@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'watermelon';
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'apple';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'orange';
+    src: url(/fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'banana';
+    src: url(/fonts/Roboto-Thin.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*main div styling*/
+div.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 450px;
+    background-color: #1F2937;
+    justify-content: space-around;
+    margin: 3rem;
+    margin-left: 5rem;   
+}
+div.box{
+    width: 20%;
+    height: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'apple',sans-serif;
+    font-weight: regular;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+div.box a:visited, div.box a{
+    color:  #E5E7EB;
+    text-decoration: none; 
+}
+#content{
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+}
+#img{
+    width: 50%;
+    height: auto;
+}
+.content img{
+    width: 70%;
+    height: 200px;
+}
+#headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'watermelon',sans-serif;
+    font-weight: bold;
+}
+div.maincontainer h1{
+    font-size: 48px;
+    font-family: 'watermelon',sans-serif;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-top: -2rem;
+}
+div.maincontainer div.content p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'apple',sans-serif;
+    font-weight: regular;
+    margin-left: 3.2rem;
+}
+div.maincontainer button{
+    width: 25%;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'apple',sans-serif;
+    font-weight: regular;
+    background-color: #3882F6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border: none;
+    padding: 5px;
+}
+/*random info styling*/
+div.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'watermelon',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+div.container div.item{
+    width: 160px;
+    height: 150px;
+    margin: 0px 1.5rem;
+}
+div.container div.item img{
+    width: 140px;
+    height: 140px;
+}
+div.container h3{
+    font-size: 18px;
+    color: #1F2937;
+    font-family: 'apple',sans-serif;
+    font-weight: regular;
+}
+/*quotr container  styling*/
+div.quotecontainer{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 380px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight:light italic;
+    font-family: 'orange',sans-serif;
+    color: #1F2937;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+/*div.quote{
+    margin-top: 2rem;
+    height: 250px;
+}*/
+div.quotecontainer p{
+    margin-top: 6rem;
+}
+div.quotecontainer p.name b{
+    margin-left: 40rem;
+    font-weight: bold;
+    font-family: 'watermelon',sans-serif;
+}
+/*action div styling*/
+div.actioncontainer{
+    display: flex;
+    width: 70%;
+    height: 150px;
+    /*justify-content: center;
+    */flex-direction: column;
+    align-items: flex-start;
+    background-color:  #3882F6;
+    color: #E5E7EB;
+    margin: 1rem 15rem;
+    border-radius: 8px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+div.actioncontainer .act{
+    width: 50%;
+    height: auto;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+    font-size: 22px;
+    font-weight: regular;
+    font-family: 'apple',sans-serif;
+}
+div.actioncontainer .acttext2{
+    font-size: 18px;
+    font-weight: thin ;
+    font-family: 'banana',sans-serif;
+   margin-left: 7rem;
+   margin-top: 0px;
+}
+div.actioncontainer button{
+    width: 10%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: regular;
+    font-family: 'apple',sans-serif;
+    border: 3px solid white;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    margin-left: 55rem;
+}
+/*footer*/
+div.footer{
+    width: 90%;
+    height:90px;
+    background-color: #1F2937;
+    margin:4rem 7rem;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: regular;
+    font-family: 'apple',sans-serif;
+    text-align: center;
+}
+div.footer p{
+    padding: 30px;
+}
+div.clickcollect{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4.7rem;
+} 
+div.stores{
+    margin-left: 4.7rem;
+}
+/*media quries*/
+@media only screen and (max-width: 600px){
+    div.content h1{
+         font-size: 20px;
+         font-weight: regular;
+         font-family: 'apple',sans-serif;
+     }
+     div.content p, div.content button{
+        font-size: 15px;
+     }
+ }
+ @media only screen and (min-width: 600px) and (max-width:768px){
+     div.content h1{
+          font-size: 20px;
+          font-weight: regular;
+          font-family: 'apple',sans-serif;
+      }
+  }
+  @media only screen and (min-width: 768px) and (max-width:900px){
+     div.content button , div.content p {
+         font-size: 14px;
+     }
+  }
+@media only screen and (min-width: 500px) and (max-width:920px){
+    div.quotecontainer{
+       width: 100%;
+       text-align: center;
+       font-size: 20px;
+       height: 200px;
+      
+    }
+    div.actioncontainer{
+       margin-left: 8rem;
+    }
+    div.actioncontainer button{
+       width:20%;
+       
+    }
+}
+

@@ -10,67 +10,65 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--main div-->
-    <div class="maincontainer">
-        <div class="box" id="headerlogo">
-            <h3>Reshma</h3>
-        </div>
-        <div class="box" id="linkitem">
-            <a href="index.html" target="_self">Home</a>
-        </div>
-        <div class="box" id="linkitem">
-            <a href="collect.html" target="_self">Click & Collect</a>
-        </div>
-        <div class="box" id="linkitem">
-            <a href="stores.html" target="_self">Stores</a>
-        </div>
-        <div class="content" id="content">
-            <h1>The furniture that defines you</h1><br/>
-                    <p>Change the look of your house, change the perspective of others</p>
-                    <button type="button">Sign up</button>
-        </div>
-        <div class="content" id="img">
-            <img src="images/landingpage1.jpg" alt="landing page image here">
-        </div>
-    </div>
-    <!--random information div-->
-           <h1 class="">Discover the interior design of your dreams</h1>
-    <div class="container">
-        <div class="item">
-            <img src="images/homefurniture.jpg" alt="home furniture img here">   
-            <h3>Home Furniture</h3>
-        </div>
-      
-        <div class="item">
-            <img src="images/office.jpg" alt="Office Furniture img here">
-            <h3>Office Furniture</h3>
-        </div>
-
-        <div class="item">
-            <img src="images/bedroom.jpg" alt="Bedroom Furniture img here">
-            <h3>Bedroom Furniture</h3>
-        </div>
-        <div class="item">
-            <img src="images/outdoor.jpg" alt="Outdoor Furniture img here">
-            <h3>Outdoor Furniture</h3>
-        </div>
-    </div>
-    <!--quote div-->
-    <div class="quotecontainer">
-        <p>"To give real service you must add something <br/>which cannot be bought or measured with money,<br/>
-            and that is sincerity and integrity."</p> 
-            <p class="name"><b>– Adams</b></p>   
-    </div> 
-    <!--action container div-->
-    <div class="actioncontainer">
-            <p class="act">Call to action! It's time!</p><br/>
-            <p class="acttext2">Click and Sign up for our products!</p>     
-            <button type="button">Sign up</button> 
-    </div>
-    <!--footer--> 
-    <div class="footer">
-       <p>Copyright  <i class="fas fa-copyright" aria-hidden="true"></i>  2022</p>
-    </div>
-    </div>     
+    <section class="mainsection">
+        <section class="header">
+            <header>
+                <h1 id="logo">Header logo</h1>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </header>
+        </section>  
+        <section class="mainsectiontext">
+            <h1 class="heading">For the home <br/>of tomorrow </h1>
+            <p>Find an elegant and luxurious interior.designed by <br/> a professional  interior designers.discover the best.
+             
+            </p>
+            <button type="button">Sign up</button>
+        </section>
+        <section class="mainsectionimg">
+          <img src="images/landingpage1.jpg" alt="landing page image">  
+        </section>
+    </section> 
+    <!--random section-->
+    <section class="imgsection">
+        <span>Furniture</span>
+        <figure class="column">
+            <img src="images/office.jpg" alt="office furniture pic">
+            <figcaption>Office Furniture</figcaption>
+        </figure>
+        <figure class="column">
+            <img src="images/bedroom.jpg" alt="bedroom furniture pic">
+            <figcaption>bedroom  Furniture</figcaption>
+        </figure>
+        <figure class="column">
+            <img src="images/outdoor.jpg" alt="outdoor furniture pic">
+            <figcaption>outdoor Furniture</figcaption>
+        </figure>
+        <figure class="column">
+            <img src="images/homefurniture.jpg" alt="home furniture pic">
+            <figcaption>home Furniture</figcaption>
+        </figure>
+    </section>
+    <!--quote section-->
+    <article class="article">
+        <blockquote>
+            This is our happy place
+        </blockquote>
+        <span>
+            <b>-John</b>
+        </span>
+    </article>
+    <!--last section-->
+    <section class="lastsection">
+        <h3>Click this button to buy our products</h3>
+        <p>happy home</p>
+        <button type="button">Sign up</button>
+    </section>
+    <footer class="footer">
+        <span>copyright <i class="fas fa-copyright"></i></span>
+    </footer>
 </body>
 </html>
